@@ -2,7 +2,7 @@ package unico;
 
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio8 {
 
 	public static void main(String[] args) {
 		/*
@@ -20,7 +20,7 @@ public class Ejercicio7 {
 		
 		mensaje = "Factorial de " + num + ": " + num +"! = ";
 		
-		for(int i = num; i == 1; i--) {
+		for(int i = num; i >= 1; i--) {
 			resulFactorial = resulFactorial * i ;
 			mensaje += i;
 			if (i != 1) {
